@@ -26,81 +26,73 @@ start_time = time.time()
 runtime_secs = runtime_mins * 60
 
 coarse = ""
-start = 1
 
 while (time.time() - start_time) < runtime_secs:   
     # Read the serial port 
     c = ser.read()
     # If the read is not empty, decode it and write it to output.txt
     if len(c) != '':
-        if start == 0:
+        
+        # First byte contain the first 7 fine bits. 
+        # Two cases since data is UTF-encoded if in range, after this the data is in hex
+        if parity == 0:
             try:
-                    utf = c.decode()
-                    bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
-                    output_fine= int(bits, 2)
+                utf = c.decode()
+                bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
+                output_fine= int(bits, 2)
             except:
                 c = ('0' + str(c)[3:-1])
                 bits = bin(int(c, 16))[2:]
                 output_fine = int(c, 16)
-            print(c)
-            print(output_fine)
-            start = 1
+
+            # Reset the coarse value
+            parity += 1
+            coarse = ''
         
-        elif start == 1:
-            if parity == 0:
-                try:
-                    utf = c.decode()
-                    bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
-                    output_fine= int(bits, 2)
-                except:
-                    c = ('0' + str(c)[3:-1])
-                    bits = bin(int(c, 16))[2:]
-                    output_fine = int(c, 16)
+        # Second byte contain the MSB of the fine bits (overflow) and the first 7 coarse bits
+        elif parity == 1: 
+            try:
+                utf = c.decode()
+                bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
+            except:
+                c = ('0' + str(c)[3:-1])
+                bits = bin(int(c, 16))
+                bits = bits[2:]
 
-                
-                parity += 1
-                coarse = ''
+            # Add the overflow to the fine bits
+            overflow = bits[-1]
+            output_fine = output_fine + int(overflow)*256
             
-            elif parity == 1: 
-                try:
-                    utf = c.decode()
-                    bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
-                except:
-                    c = ('0' + str(c)[3:-1])
-                    bits = bin(int(c, 16))
-                    bits = bits[2:]
-
-                overflow = bits[-1]
-                output_fine = output_fine + int(overflow)*256
+            # Add the coarse bits
+            coarse = (str(bits[:-1])) 
+            parity += 1
+            
+        # The rest of the bytes contain the remaining coarse bits
+        elif parity < 5:
+            try:
+                utf = c.decode()
+                bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
+            except:
+                c = ('0' + str(c)[3:-1])
+                bits = bin(int(c, 16))
+                bits = bits[2:]
                 
-                coarse = (str(bits[:-1])) 
+            # Update the coarse bits
+            coarse = (str(bits)) + coarse
+            
+            # Write the coarse and fine bits to the output files when 40 bits are read
+            if parity == 4:
+                coarse = int(''.join(coarse), 2)
+                with open(f'{directory}/coarse.txt', 'a') as f:
+                    f.write(str(coarse) + '\n')
+                    
+                with open(f'{directory}/fine.txt', 'a') as f:
+                    f.write(str(output_fine) + '\n')
+                
+                parity = 0
+                
+            else:       
                 parity += 1
-                
-                
-            elif parity < 5:
-                try:
-                    utf = c.decode()
-                    bits = ' '.join([f'{i:08b}' for i in utf.encode('utf-8')])
-                except:
-                    c = ('0' + str(c)[3:-1])
-                    bits = bin(int(c, 16))
-                    bits = bits[2:]
-                    
-
-                coarse = (str(bits)) + coarse
-                if parity == 4:
-                    coarse = int(''.join(coarse), 2)
-                    #print(bin(coarse))
-                    with open(f'{directory}/coarse.txt', 'a') as f:
-                        f.write(str(coarse) + '\n')
-                        
-                    with open(f'{directory}/fine.txt', 'a') as f:
-                        f.write(str(output_fine) + '\n')
-                    
-                    parity = 0
-                    
-                else:       
-                    parity += 1
 
     else:
         print('Empty')

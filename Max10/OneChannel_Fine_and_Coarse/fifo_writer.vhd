@@ -42,6 +42,7 @@ BEGIN
             fifo_data_reg <= (OTHERS => '0');
             written_channels_reg <= '0';
             count <= 0;
+            
         -- Update signals
         ELSIF rising_edge(clk) THEN
             state <= next_state;
