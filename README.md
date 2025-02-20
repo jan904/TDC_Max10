@@ -25,5 +25,5 @@ and writes the fine and coarse timestamps in seperate .txt files. The name of th
 
 __Important__: First start running the script, then programm the FPGA and start the measurement. Otherwise the bits are mixed up in the readout.
 
-To analyze the fine bin distribution of the delay line, run plot_hist. Provide it with the name of the folder you want to 
+To analyze the fine bin distribution of the delay line, run one_channel_plot_fine. Provide it with the name of the folder you want to 
 analyze. It plots a live histogram during one measurement and also saves the full histogram once closed.
