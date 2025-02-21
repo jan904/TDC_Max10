@@ -26,6 +26,9 @@ and writes the fine and coarse timestamps in seperate .txt files. The name of th
 __Important__: First start running the script, then programm the FPGA and start the measurement. Otherwise the bits are mixed up in the readout.
 
 To analyze the fine bin distribution of the delay line, run one_channel_plot_fine. Provide it with the name of the folder you want to analyze. It plots a live histogram during one measurement and also saves the full histogram once closed.
+Better analysis with calibration.py. In this script, the bin width in ns of each bin is calculated and plotted, allowing a more quantitative analysis.
+
+Use coarse_dist.py to analyse the distribution of the coarse timestamps. With this, one can recover the frequency that the input signals had. 
 
 
 ### Four channels, Only Fine
