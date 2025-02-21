@@ -1,0 +1,23 @@
+#include "system.h"
+#include "io.h"
+#include <stdio.h>
+
+#define TSE_MAC_BASE 0x3000
+
+// void disable_mac_tx_rx()
+// {
+//     IOWR(TSE_MAC_BASE, 0x02, 0x00802220);
+// }
+
+// void enable_mac_tx_rx()
+// {
+//     IOWR(TSE_MAC_BASE, 0x02, 0x00802223);
+// }
+
+int main() {
+    // printf("Hello from Nios II!\n");
+
+    // disable_mac_tx_rx();
+    
+    return 0;
+}

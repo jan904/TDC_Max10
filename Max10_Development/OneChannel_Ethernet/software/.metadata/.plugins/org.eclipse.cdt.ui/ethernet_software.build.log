@@ -1,0 +1,16 @@
+15:56:15 **** Incremental Build of configuration Nios II for project ethernet_software ****
+make all 
+Info: Building ../ethernet_bsp/
+make --no-print-directory -C ../ethernet_bsp/
+[BSP build complete]
+Info: Linking ethernet_software.elf
+nios2-elf-g++ -T'../ethernet_bsp//linker.x' -msys-crt0='../ethernet_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ethernet_bsp/   -Wl,-Map=ethernet_software.map   -O0 -g -Wall  -mno-hw-div -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o ethernet_software.elf  -lm -msys-lib=m
+nios2-elf-insert ethernet_software.elf --thread_model hal --cpu_name nios2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x11430 --timestamp 1737730410 --stderr_dev jtaguart_0 --stdin_dev jtaguart_0 --stdout_dev jtaguart_0 --sopc_system_name ethernet_setup --sopcinfo /home/labor/TDC/Max10_Development/software/ethernet_bsp/../../ethernet_setup.sopcinfo
+Info: (ethernet_software.elf) 14 KBytes program size (code + initialized data).
+Info:                         732 Bytes free for stack + heap.
+Info: Creating ethernet_software.objdump
+nios2-elf-objdump --disassemble --syms --all-header ethernet_software.elf >ethernet_software.objdump
+[ethernet_software build complete]
+
+15:56:15 Build Finished (took 507ms)
+

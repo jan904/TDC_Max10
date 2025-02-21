@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newApplicationWizardPage.defaultLocation=/home/labor/TDC/Max10_Development/software/ethernet_software
+newBspWizardPage.defaultLocation=/home/labor/TDC/Max10_Development/software/ethernet_bsp
+newBspWizardPage.sopcinfoFile=/home/labor/TDC/Max10_Development/ethernet_setup.sopcinfo

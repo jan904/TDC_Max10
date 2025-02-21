@@ -1,0 +1,1167 @@
+Archive member included to satisfy reference by file (symbol)
+
+../ethernet_bsp//libhal_bsp.a(alt_load.o)
+                              ../ethernet_bsp//obj/HAL/src/crt0.o (alt_load)
+../ethernet_bsp//libhal_bsp.a(alt_main.o)
+                              ../ethernet_bsp//obj/HAL/src/crt0.o (main)
+../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (alt_irq_init)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (altera_avalon_timer_ts_base)
+../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../ethernet_bsp//libhal_bsp.a(alt_close.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (close)
+../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (_do_ctors)
+../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (_do_dtors)
+../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_close.o) (alt_errno)
+../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../ethernet_bsp//libhal_bsp.a(alt_open.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o) (open)
+../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_close.o) (alt_release_fd)
+../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_open.o) (alt_find_dev)
+../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_open.o) (alt_find_file)
+../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_open.o) (alt_get_fd)
+../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (atexit)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_main.o) (exit)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o) (memcmp)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+                              ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o) (strlen)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+                              ../ethernet_bsp//libhal_bsp.a(alt_close.o) (errno)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+                              /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o) (__register_exitproc)
+/home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+                              /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o) (__call_exitprocs)
+../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+                              /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o) (_exit)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x00008000         0x00000020
+onchip_memory2_0 0x00008020         0x00004e00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../ethernet_bsp//obj/HAL/src/crt0.o
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libstdc++.a
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/libgcc.a
+START GROUP
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/libgcc.a
+LOAD ../ethernet_bsp//libhal_bsp.a
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libm.a
+END GROUP
+LOAD /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/libgcc.a
+                0x00008000                        __alt_mem_onchip_memory2_0 = 0x8000
+
+.entry          0x00008000       0x20
+ *(.entry)
+ .entry         0x00008000       0x20 ../ethernet_bsp//obj/HAL/src/crt0.o
+                0x00008000                __reset
+
+.exceptions     0x00008020      0x218
+                0x00008020                        PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x00008020                        . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x00008020        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+                0x00008020                alt_irq_entry
+ .exceptions.entry.label
+                0x00008020        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+                0x00008020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x00008020       0x54 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x00008074       0x10 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x00008084        0x4 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x00008088        0x4 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0000808c        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0000808c        0x8 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x00008094       0x14 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x000080a8        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x000080a8        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x000080a8       0x54 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x000080fc       0xc8 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x000080fc                alt_irq_handler
+ .exceptions    0x000081c4       0x74 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x000081c4                alt_instruction_exception_entry
+                0x00008238                        PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x00008020                        PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x00008238     0x21c4
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008238       0x4c ../ethernet_bsp//obj/HAL/src/crt0.o
+                0x00008238                _start
+ .text          0x00008284       0xec ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+                0x000082ec                alt_load
+ .text          0x00008370       0x9c ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+                0x00008370                main
+                0x00008390                alt_main
+ .text          0x0000840c       0xd8 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+                0x00008440                alt_irq_init
+                0x0000847c                alt_sys_init
+ .text          0x000084e4      0x164 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x000084e4                altera_avalon_jtag_uart_read_fd
+                0x00008544                altera_avalon_jtag_uart_write_fd
+                0x000085a4                altera_avalon_jtag_uart_close_fd
+                0x000085f4                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x00008648      0x3e4 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x00008648                altera_avalon_jtag_uart_init
+                0x000089c4                altera_avalon_jtag_uart_close
+ .text          0x00008a2c       0xf4 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x00008a2c                altera_avalon_jtag_uart_ioctl
+ .text          0x00008b20      0x220 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00008b20                altera_avalon_jtag_uart_read
+ .text          0x00008d40      0x228 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00008d40                altera_avalon_jtag_uart_write
+ .text          0x00008f68        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .text          0x00008f68      0x160 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+                0x00008f68                alt_alarm_start
+ .text          0x000090c8      0x10c ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+                0x00009104                close
+ .text          0x000091d4       0x4c ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                0x000091d4                alt_dcache_flush_all
+ .text          0x00009220       0x2c ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .text          0x0000924c       0xe4 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                0x00009288                alt_dev_llist_insert
+ .text          0x00009330       0x64 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+                0x00009330                _do_ctors
+ .text          0x00009394       0x64 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+                0x00009394                _do_dtors
+ .text          0x000093f8        0x0 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .text          0x000093f8       0x34 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                0x000093f8                alt_icache_flush_all
+ .text          0x0000942c      0x1b0 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+                0x0000942c                alt_ic_isr_register
+                0x0000947c                alt_ic_irq_enable
+                0x00009504                alt_ic_irq_disable
+                0x00009590                alt_ic_irq_enabled
+ .text          0x000095dc       0xe8 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                0x000095dc                alt_iic_isr_register
+ .text          0x000096c4      0x12c ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+                0x00009774                alt_io_redirect
+ .text          0x000097f0        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .text          0x000097f0        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .text          0x000097f0        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .text          0x000097f0      0x248 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+                0x000098e4                open
+ .text          0x00009a38       0x58 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+                0x00009a38                alt_release_fd
+ .text          0x00009a90      0x1d0 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                0x00009a90                alt_alarm_stop
+                0x00009b34                alt_tick
+ .text          0x00009c60       0x24 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00009c60                altera_nios2_gen2_irq_init
+ .text          0x00009c84        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .text          0x00009c84       0x90 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+                0x00009c84                alt_find_dev
+ .text          0x00009d14      0x108 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+                0x00009d14                alt_find_file
+ .text          0x00009e1c       0xa0 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+                0x00009e1c                alt_get_fd
+ .text          0x00009ebc       0x90 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+                0x00009ebc                alt_icache_flush
+ .text          0x00009f4c       0x74 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00009f4c                alt_exception_cause_generated_bad_addr
+ .text          0x00009fc0        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .text.atexit   0x00009fc0       0x14 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+                0x00009fc0                atexit
+ .text          0x00009fd4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .text.exit     0x00009fd4       0x30 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+                0x00009fd4                exit
+ .text          0x0000a004        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .text.memcmp   0x0000a004       0x78 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+                0x0000a004                memcmp
+ .text          0x0000a07c        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .text.memcpy   0x0000a07c      0x100 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+                0x0000a07c                memcpy
+ .text          0x0000a17c        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .text.strlen   0x0000a17c       0x98 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+                0x0000a17c                strlen
+ .text          0x0000a214        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .text          0x0000a214        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000a214       0x94 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+                0x0000a214                __register_exitproc
+ .text          0x0000a2a8        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000a2a8      0x118 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+                0x0000a2a8                __call_exitprocs
+ .text          0x0000a3c0       0x3c ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+                0x0000a3c0                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000a3fc                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000a3fc                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                0x0000a3fc                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                0x0000a3fc                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                0x0000a3fc                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000a3fc                        . = ALIGN (0x4)
+
+.rodata         0x0000a3fc       0x2c
+                0x0000a3fc                        PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000a3fc                        . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000a3fc       0x10 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .rodata        0x0000a40c       0x10 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x0000a41c        0xa ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x0000a428                        . = ALIGN (0x4)
+ *fill*         0x0000a426        0x2 
+                0x0000a428                        PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000a3fc                        PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000a428     0x122c load address 0x0000b654
+                0x0000a428                        PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000a428                        . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000a428        0x0 ../ethernet_bsp//obj/HAL/src/crt0.o
+ .data          0x0000a428        0x0 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .data          0x0000a428        0x0 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .data          0x0000a428     0x1060 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .data          0x0000b488        0x0 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000b488      0x1a8 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000b488                alt_dev_null
+                0x0000b4b0                alt_fd_list
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .data          0x0000b630        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .data          0x0000b630        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+                0x00013630                        _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000b630       0x14 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+                0x0000b630                alt_fs_list
+                0x0000b638                alt_dev_list
+                0x0000b640                alt_max_fd
+ .sdata         0x0000b644        0x4 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+                0x0000b644                alt_errno
+ .sdata         0x0000b648        0x4 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000b648                alt_priority_mask
+ .sdata         0x0000b64c        0x8 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000b64c                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000b654                        . = ALIGN (0x4)
+                0x0000b654                        _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000b654                        PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000b654                        PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000c880      0x2c4
+                0x0000c880                        __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000c880        0xc ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+                0x0000c880                alt_argc
+                0x0000c884                alt_argv
+                0x0000c888                alt_envp
+ .sbss          0x0000c88c        0x8 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+                0x0000c88c                altera_avalon_timer_ts_base
+                0x0000c890                altera_avalon_timer_ts_freq
+ .sbss          0x0000c894        0x4 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+                0x0000c894                alt_irq_active
+ .sbss          0x0000c898        0xc ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                0x0000c898                _alt_tick_rate
+                0x0000c89c                _alt_nticks
+ .sbss          0x0000c8a4        0x4 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000c8a4                alt_instruction_exception_handler
+ .sbss.__stdio_exit_handler
+                0x0000c8a8        0x4 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+                0x0000c8a8                __stdio_exit_handler
+ .sbss.errno    0x0000c8ac        0x4 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+                0x0000c8ac                errno
+ .sbss.__atexit
+                0x0000c8b0        0x4 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+                0x0000c8b0                __atexit
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000c8b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000c8b4      0x100 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+                0x0000c8b4                alt_irq
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000c9b4        0x0 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .bss           0x0000c9b4        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .bss.__atexit0
+                0x0000c9b4      0x190 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+                0x0000c9b4                __atexit0
+ .bss           0x0000cb44        0x0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .bss           0x0000cb44        0x0 ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+                0x0000cb44                        . = ALIGN (0x4)
+                0x0000cb44                        __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000cb44        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000cb44                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE (.))
+                0x0000cb44                        _end = ABSOLUTE (.)
+                0x0000cb44                        end = ABSOLUTE (.)
+                0x0000cb44                        __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR (.onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2d
+ *(.comment)
+ .comment       0x00000000       0x2d ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+                                 0x2e (size before relaxing)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .comment       0x0000002d       0x2e /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .comment       0x0000002d       0x2e ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x590
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../ethernet_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000048       0x20 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000068       0x20 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000088       0x20 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x000000a8       0x20 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x000000c8       0x20 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x000000e8       0x20 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000108       0x20 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000128       0x18 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .debug_aranges
+                0x00000140       0x20 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000160       0x20 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000180       0x20 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x000001a0       0x20 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x000001c0       0x20 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x000001e0       0x20 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000200       0x20 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000220       0x18 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000238       0x20 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000258       0x20 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000278       0x20 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000298       0x20 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x000002b8       0x30 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x000002e8       0x20 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000308       0x18 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000320       0x20 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000340       0x20 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000360       0x20 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000380       0x20 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x000003a0       0x30 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000003d0       0x20 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000003f0       0x20 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000410       0x20 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000430       0x20 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000450       0x28 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000478       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_aranges
+                0x00000498       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_aranges
+                0x000004b8       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_aranges
+                0x000004d8       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_aranges
+                0x000004f8       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_aranges
+                0x00000518       0x18 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .debug_aranges
+                0x00000530       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_aranges
+                0x00000550       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .debug_aranges
+                0x00000570       0x20 ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5a20
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x3f ../ethernet_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000003f      0x144 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000183      0x193 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000316      0x58f ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000008a5      0x593 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00000e38      0x421 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00001259      0x25f ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x000014b8      0x358 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00001810      0x354 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00001b64       0xaf ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .debug_info    0x00001c13      0x2b9 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00001ecc      0x32f ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .debug_info    0x000021fb       0xa1 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000229c      0x567 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00002803      0x1a8 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000029ab       0x83 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00002a2e       0x83 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00002ab1       0xa8 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00002b59       0xb2 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00002c0b      0x339 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00002f44      0x218 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000315c      0x561 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000036bd       0x22 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000036df      0x170 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000384f       0x88 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x000038d7      0x415 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .debug_info    0x00003cec      0x2ac ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00003f98      0x29e ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00004236       0x8d ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x000042c3       0x22 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x000042e5      0x323 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00004608      0x324 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000492c      0x309 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00004c35       0xd8 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00004d0d      0x1e8 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x00004ef5      0x118 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_info    0x0000500d      0x115 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_info    0x00005122      0x12b /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_info    0x0000524d      0x157 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_info    0x000053a4       0xeb /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_info    0x0000548f       0x85 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .debug_info    0x00005514      0x1f9 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_info    0x0000570d      0x231 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .debug_info    0x0000593e       0xe2 ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x29fd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x1f ../ethernet_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000001f       0xc2 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000000e1      0x114 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000001f5      0x1e7 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000003dc      0x166 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00000542      0x1e4 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000726      0x114 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000083a      0x1d1 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000a0b      0x1cf ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x00000bda       0x61 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .debug_abbrev  0x00000c3b      0x191 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000dcc      0x147 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000f13       0x5d ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000f70      0x11b ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000108b      0x12b ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x000011b6       0x83 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x00001239       0x83 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x000012bc       0x70 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000132c       0x75 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x000013a1      0x1a9 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000154a      0x199 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000016e3      0x157 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000183a       0x12 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000184c      0x12f ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000197b       0x46 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x000019c1      0x191 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00001b52       0xea ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00001c3c      0x17f ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x00001dbb       0x43 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x00001dfe       0x12 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00001e10      0x10c ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00001f1c      0x11d ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00002039      0x124 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000215d       0x97 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x000021f4       0xed ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x000022e1       0xc1 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_abbrev  0x000023a2       0xde /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_abbrev  0x00002480       0x90 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_abbrev  0x00002510       0xb9 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_abbrev  0x000025c9       0x90 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_abbrev  0x00002659       0x39 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .debug_abbrev  0x00002692      0x156 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_abbrev  0x000027e8      0x16a /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .debug_abbrev  0x00002952       0xab ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x1fdd
+ *(.debug_line)
+ .debug_line    0x00000000       0x72 ../ethernet_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000072       0x8f ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000101       0xa2 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .debug_line    0x000001a3       0xbc ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000025f       0xb2 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000311      0x1d9 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x000004ea       0xdd ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x000005c7      0x158 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000071f      0x15e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000087d       0x4c ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .debug_line    0x000008c9       0xed ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x000009b6      0x116 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .debug_line    0x00000acc       0x69 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000b35       0xa2 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00000bd7       0xca ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00000ca1       0x69 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00000d0a       0x69 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x00000d73       0x4c ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000dbf       0x63 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000e22       0xf4 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000f16       0xbc ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000fd2       0xd2 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x000010a4       0x6b ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000110f       0xb4 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000011c3       0x43 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x00001206      0x158 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000135e       0x77 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000013d5       0xf2 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_line    0x000014c7       0x51 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x00001518       0x9d ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000015b5       0xa1 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00001656       0xd7 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000172d       0xb2 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x000017df       0x8f ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000186e       0xa1 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000190f       0x65 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_line    0x00001974       0x93 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_line    0x00001a07       0xe1 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_line    0x00001ae8      0x131 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_line    0x00001c19       0xc6 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_line    0x00001cdf       0x3a /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .debug_line    0x00001d19       0xe8 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_line    0x00001e01      0x162 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .debug_line    0x00001f63       0x7a ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000      0xa68
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x5c ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000005c       0x50 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+ .debug_frame   0x000000ac       0x88 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000134       0xb0 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x000001e4       0xa4 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000288       0x34 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x000002bc       0x38 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x000002f4       0x38 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000032c       0x34 ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000360       0x60 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+ .debug_frame   0x000003c0       0x34 ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000003f4       0x34 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000428       0x60 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000488       0x38 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x000004c0       0x38 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x000004f8       0x38 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000530       0xa4 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000005d4       0x38 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000060c       0x60 ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000066c       0x38 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x000006a4       0x84 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000728       0x34 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000075c       0x64 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x000007c0       0x34 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x000007f4       0x38 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000082c       0x38 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000864       0x34 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000898       0x34 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x000008cc       0x5c ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x00000928       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_frame   0x00000948       0x28 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_frame   0x00000970       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_frame   0x00000990       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_frame   0x000009b0       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_frame   0x000009d0       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_frame   0x000009f0       0x4c /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000a3c       0x2c ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000     0x109b
+ *(.debug_str)
+ .debug_str     0x00000000       0x5e ../ethernet_bsp//obj/HAL/src/crt0.o
+                                 0x65 (size before relaxing)
+ .debug_str     0x0000005e      0x1b4 ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+                                0x1ed (size before relaxing)
+ .debug_str     0x00000212       0x6f ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+                                0x172 (size before relaxing)
+ .debug_str     0x00000281      0x295 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+                                0x3f8 (size before relaxing)
+ .debug_str     0x00000516       0x84 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x38d (size before relaxing)
+ .debug_str     0x0000059a       0xb9 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                0x2f1 (size before relaxing)
+ .debug_str     0x00000653      0x1fb ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_str     0x00000653       0x3e ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x266 (size before relaxing)
+ .debug_str     0x00000691        0x6 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x266 (size before relaxing)
+ .debug_str     0x00000697      0x125 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+ .debug_str     0x00000697       0x3b ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+                                0x220 (size before relaxing)
+ .debug_str     0x000006d2       0x3f ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+                                0x1bd (size before relaxing)
+ .debug_str     0x00000711       0xfa ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x00000711      0x13e ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+                                0x316 (size before relaxing)
+ .debug_str     0x0000084f      0x171 ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x0000084f       0x27 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+                                 0x86 (size before relaxing)
+ .debug_str     0x00000876       0x2b ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+                                 0x85 (size before relaxing)
+ .debug_str     0x000008a1        0x8 ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+                                 0xf7 (size before relaxing)
+ .debug_str     0x000008a9       0x11 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                0x113 (size before relaxing)
+ .debug_str     0x000008ba       0x94 ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+                                0x1f3 (size before relaxing)
+ .debug_str     0x0000094e       0x18 ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                0x1b2 (size before relaxing)
+ .debug_str     0x00000966       0x2c ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+                                0x321 (size before relaxing)
+ .debug_str     0x00000992       0x18 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+                                 0x5f (size before relaxing)
+ .debug_str     0x000009aa       0x20 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                0x141 (size before relaxing)
+ .debug_str     0x000009ca       0x12 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                 0xf0 (size before relaxing)
+ .debug_str     0x000009dc       0x42 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+                                0x231 (size before relaxing)
+ .debug_str     0x00000a1e      0x17a ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+ .debug_str     0x00000a1e       0x37 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                                0x1fb (size before relaxing)
+ .debug_str     0x00000a55      0x100 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_str     0x00000a55       0x1e ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+                                 0x65 (size before relaxing)
+ .debug_str     0x00000a73        0xe ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+                                0x1a1 (size before relaxing)
+ .debug_str     0x00000a81      0x1ae ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x00000a81       0x10 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+                                0x1be (size before relaxing)
+ .debug_str     0x00000a91      0x104 ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+ .debug_str     0x00000a91      0x461 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                0x543 (size before relaxing)
+ .debug_str     0x00000ef2       0xae /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x00000fa0       0x26 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+                                0x135 (size before relaxing)
+ .debug_str     0x00000fc6      0x10d /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_str     0x00000fc6       0x27 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+                                0x134 (size before relaxing)
+ .debug_str     0x00000fed        0xd /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+                                0x120 (size before relaxing)
+ .debug_str     0x00000ffa      0x105 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+ .debug_str     0x00000ffa       0x63 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+                                0x1b3 (size before relaxing)
+ .debug_str     0x0000105d       0x27 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00001084       0x17 ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+                                0x102 (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x30 ../ethernet_bsp//obj/HAL/src/crt0.o
+                0x0000ce20                        __alt_data_end = 0xce20
+                0x0000ce20                        PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0xce20)
+OUTPUT(ethernet_software.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x70
+ .debug_ranges  0x00000000       0x20 ../ethernet_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x28 ../ethernet_bsp//libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000048       0x28 ../ethernet_bsp//libhal_bsp.a(alt_exception_entry.o)
+
+.debug_line_str
+                0x00000000      0xb89
+ .debug_line_str
+                0x00000000       0x8e ../ethernet_bsp//libhal_bsp.a(alt_load.o)
+                                 0xdc (size before relaxing)
+ .debug_line_str
+                0x0000008e      0x119 ../ethernet_bsp//libhal_bsp.a(alt_main.o)
+                                0x1b5 (size before relaxing)
+ .debug_line_str
+                0x000001a7       0xb4 ../ethernet_bsp//libhal_bsp.a(alt_sys_init.o)
+                                0x18b (size before relaxing)
+ .debug_line_str
+                0x0000025b       0x35 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                0x185 (size before relaxing)
+ .debug_line_str
+                0x00000290       0x2b ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                0x17d (size before relaxing)
+ .debug_line_str
+                0x000002bb       0x2c ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                0x167 (size before relaxing)
+ .debug_line_str
+                0x000002e7       0xa3 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                0x24c (size before relaxing)
+ .debug_line_str
+                0x0000038a       0x2c ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                0x24f (size before relaxing)
+ .debug_line_str
+                0x000003b6       0x27 ../ethernet_bsp//libhal_bsp.a(altera_avalon_timer_vars.o)
+                                0x113 (size before relaxing)
+ .debug_line_str
+                0x000003dd       0x1a ../ethernet_bsp//libhal_bsp.a(alt_alarm_start.o)
+                                0x117 (size before relaxing)
+ .debug_line_str
+                0x000003f7       0x20 ../ethernet_bsp//libhal_bsp.a(alt_close.o)
+                                0x168 (size before relaxing)
+ .debug_line_str
+                0x00000417       0x1f ../ethernet_bsp//libhal_bsp.a(alt_dcache_flush_all.o)
+                                 0xc5 (size before relaxing)
+ .debug_line_str
+                0x00000436       0xa8 ../ethernet_bsp//libhal_bsp.a(alt_dev.o)
+                                0x24b (size before relaxing)
+ .debug_line_str
+                0x000004de       0x1f ../ethernet_bsp//libhal_bsp.a(alt_dev_llist_insert.o)
+                                0x10a (size before relaxing)
+ .debug_line_str
+                0x000004fd       0x17 ../ethernet_bsp//libhal_bsp.a(alt_do_ctors.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x00000514       0x17 ../ethernet_bsp//libhal_bsp.a(alt_do_dtors.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x0000052b       0x7b ../ethernet_bsp//libhal_bsp.a(alt_errno.o)
+                                0x12d (size before relaxing)
+ .debug_line_str
+                0x000005a6       0x1f ../ethernet_bsp//libhal_bsp.a(alt_icache_flush_all.o)
+                                 0xf5 (size before relaxing)
+ .debug_line_str
+                0x000005c5       0x3a ../ethernet_bsp//libhal_bsp.a(alt_iic.o)
+                                0x103 (size before relaxing)
+ .debug_line_str
+                0x000005ff       0x2f ../ethernet_bsp//libhal_bsp.a(alt_iic_isr_register.o)
+                                0x112 (size before relaxing)
+ .debug_line_str
+                0x0000062e       0x2b ../ethernet_bsp//libhal_bsp.a(alt_io_redirect.o)
+                                0x274 (size before relaxing)
+ .debug_line_str
+                0x00000659       0x1a ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+                                 0xe4 (size before relaxing)
+ .debug_line_str
+                0x00000673       0x17 ../ethernet_bsp//libhal_bsp.a(alt_irq_vars.o)
+                                 0xc3 (size before relaxing)
+ .debug_line_str
+                0x0000068a       0x13 ../ethernet_bsp//libhal_bsp.a(alt_open.o)
+                                0x101 (size before relaxing)
+ .debug_line_str
+                0x0000069d       0x19 ../ethernet_bsp//libhal_bsp.a(alt_release_fd.o)
+                                0x107 (size before relaxing)
+ .debug_line_str
+                0x000006b6       0x13 ../ethernet_bsp//libhal_bsp.a(alt_tick.o)
+                                0x102 (size before relaxing)
+ .debug_line_str
+                0x000006c9       0x20 ../ethernet_bsp//libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                 0xc8 (size before relaxing)
+ .debug_line_str
+                0x000006e9       0x17 ../ethernet_bsp//libhal_bsp.a(alt_find_dev.o)
+                                0x1b6 (size before relaxing)
+ .debug_line_str
+                0x00000700       0x18 ../ethernet_bsp//libhal_bsp.a(alt_find_file.o)
+                                0x1d3 (size before relaxing)
+ .debug_line_str
+                0x00000718       0x15 ../ethernet_bsp//libhal_bsp.a(alt_get_fd.o)
+                                0x10a (size before relaxing)
+ .debug_line_str
+                0x0000072d       0x1b ../ethernet_bsp//libhal_bsp.a(alt_icache_flush.o)
+                                 0xcf (size before relaxing)
+ .debug_line_str
+                0x00000748       0x3b ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+                                0x11b (size before relaxing)
+ .debug_line_str
+                0x00000783      0x139 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+                                0x1c6 (size before relaxing)
+ .debug_line_str
+                0x000008bc       0x9b /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+                                0x230 (size before relaxing)
+ .debug_line_str
+                0x00000957       0xd0 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+                                0x233 (size before relaxing)
+ .debug_line_str
+                0x00000a27       0x36 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+                                0x233 (size before relaxing)
+ .debug_line_str
+                0x00000a5d       0x36 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+                                0x233 (size before relaxing)
+ .debug_line_str
+                0x00000a93       0x64 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-int_errno.o)
+                                0x160 (size before relaxing)
+ .debug_line_str
+                0x00000af7       0x38 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+                                0x1cf (size before relaxing)
+ .debug_line_str
+                0x00000b2f       0x3d /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+                                0x1d5 (size before relaxing)
+ .debug_line_str
+                0x00000b6c       0x1d ../ethernet_bsp//libhal_bsp.a(alt_exit.o)
+                                 0xb9 (size before relaxing)
+
+.debug_rnglists
+                0x00000000      0x104
+ .debug_rnglists
+                0x00000000       0x22 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_rnglists
+                0x00000022       0x16 ../ethernet_bsp//libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_rnglists
+                0x00000038       0x14 ../ethernet_bsp//libhal_bsp.a(alt_irq_handler.o)
+ .debug_rnglists
+                0x0000004c       0x19 ../ethernet_bsp//libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_rnglists
+                0x00000065       0x13 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_rnglists
+                0x00000078       0x13 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_rnglists
+                0x0000008b       0x13 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_rnglists
+                0x0000009e       0x14 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_rnglists
+                0x000000b2       0x14 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_rnglists
+                0x000000c6       0x14 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_rnglists
+                0x000000da       0x2a /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
+
+.debug_loclists
+                0x00000000      0x589
+ .debug_loclists
+                0x00000000       0x2a /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-atexit.o)
+ .debug_loclists
+                0x0000002a       0x20 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-exit.o)
+ .debug_loclists
+                0x0000004a       0xe1 /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcmp.o)
+ .debug_loclists
+                0x0000012b      0x23b /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-memcpy.o)
+ .debug_loclists
+                0x00000366       0x4d /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-strlen.o)
+ .debug_loclists
+                0x000003b3       0xbb /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__atexit.o)
+ .debug_loclists
+                0x0000046e      0x11b /home/labor/intelFPGA/23.1std/nios2eds/bin/gnu/H-x86_64-pc-linux-gnu/bin/../lib/gcc/nios2-elf/12.3.1/../../../../../H-x86_64-pc-linux-gnu/nios2-elf/lib/libc.a(libc_a-__call_atexit.o)
