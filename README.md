@@ -53,3 +53,14 @@ The overall design was not changed so the performance is similar to the small Ma
 Again, a waveform generator was used to feed signals in the FPGA. A HSMC breakout boards is used to use simple pins as inputs. Connect the ground to GND and the input to PIN_C9 (see pin plan of breakout board in the Documentation folder). Input are rectangular signals with 2.5V.
 
 The system is programmed via UART. To allow access to the port, a rule file has to be inserted to "/etc/udev/rules.d". Copy the rule file in Documentation into this directory and reload rules. 
+
+
+### One Channel, UART
+This is exactly the same design as for the Max1000, only adapted to the Development Kit. Now runs on a 25MHz clock. Other than that, there are no changes.
+
+
+### One Channel, Ethernet
+The speed of UART is a limiting factor for the input frequency of the delay line. For this reason, implementing communication via Ethernet was started. 
+However, this is quite involved and still does not work. 
+
+The design instatiates a ethernet_setup IP which handles most of the ethernet logic. This IP is connected to the phy on the Max10 Development Kit via RGMII connection. The working principle of this IP and the correct Pin connections are specified in the provided documents in Documentation. However, to corretly instantiate the IP, several configuration bits have to be specified in the register space (chapter 5 in the ethernet documentation). To be able to access the register, a nio2 processor is added into the design. The setup of this design is done in the platform designer (.sopcinfo file). The nios2 processor can be programmed using eclipse which can be opened directly in the quartus tool menu. However, until now, i could not get this programming of the nios2 processor to work and therefore was unable to get the ethernet communication running (Without setting TX_ena in the Command_config, the port is disabled). I also did not start developing a python script to recieve the ethernet data.
