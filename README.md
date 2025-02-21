@@ -5,7 +5,7 @@ Details on the general idea and implementation can be found in my Bachelor thesi
 ## Max10
 
 ### General
-The Max 10 is a small, low-price FPGA. Regradless of its size and slow clock of only 12 MHz, the TDC could achieve bin sizes of roughly 300 ps. Readout works via UART communication
+The Max 10 is a small, low-price FPGA. Regradless of its size and slow clock of only 12 MHz, the TDC could achieve bin sizes of roughly 300 ps and a time resolution of ~120 ps. Readout works via UART communication
 
 To feed input signals in the Max10, a Waveform Generator was used. Connect the ground to the GND and the input to PIN_L12. Input are rectangular signals with 3.3 V. 
 
@@ -40,6 +40,6 @@ The script read_serial reads to output of the FPGA via UART. At the moment, each
 
 For some reason, it can happen that the order of the output is shifted. Then the bits read by the script do not make sense as the channel ID is taken as timing information in this case. It only happens rarely and could be detected within the script to automatically correct.
 
-Quickly plot the bin histograms with plot_hist.py. In the current configuration, the first two lines are longer and thus better than lines 3 & 4. This can be optimized by altering the position of the lines on the FPGA using the loc_assign script. The entries at the maximum bin 4 * 72 = 288 are a result of overflow. This happens when a signal arrives during the reset stage leading to the maximum value being recorded.
+Quickly plot the bin histograms with plot_hist.py. The entries at the maximum bin 4 * 72 = 288 are a result of overflow. This happens when a signal arrives during the reset stage leading to the maximum value being recorded.
 
-
+To plot the actual bin widths of the bins in ns, use the scripts calibration.py. This script also provides the possibility of calculating the difference of arrival times and thus determine the time resolution of the TDC. When using the mean of two channels and then taking the difference, time resolutions of 117 ps are reached.
