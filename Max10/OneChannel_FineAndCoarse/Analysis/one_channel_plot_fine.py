@@ -7,7 +7,7 @@ from matplotlib.animation import FuncAnimation
 skiprows_next : int = 0
 
 # Folder to read data from
-timestamp = 'coarse_2025-02-20_13:34:46'
+timestamp = 'coarse_2025-02-21_11:20:02'
 
 # Channels to plot
 channels = ['fine']
@@ -35,7 +35,7 @@ def update_hist(frame):
             return
         full_data[channel].extend(data)
     
-        ax = plt.subplot(2, 2, i+1)
+        ax = plt.subplot(1, 1, i+1)
         
         ax.clear()
         ax.set_xlabel('bins')
