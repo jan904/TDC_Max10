@@ -51,3 +51,5 @@ The Max10 Development Kit offers much more functionality than the small Max1000.
 The overall design was not changed so the performance is similar to the small Max1000. 
 
 Again, a waveform generator was used to feed signals in the FPGA. A HSMC breakout boards is used to use simple pins as inputs. Connect the ground to GND and the input to PIN_C9 (see pin plan of breakout board in the Documentation folder). Input are rectangular signals with 2.5V.
+
+The system is programmed via UART. To allow access to the port, a rule file has to be inserted to "/etc/udev/rules.d". Copy the rule file in Documentation into this directory and reload rules. 
