@@ -1,0 +1,40 @@
+	ethernet_setup u0 (
+		.altpll_0_areset_conduit_export              (<connected-to-altpll_0_areset_conduit_export>),              //         altpll_0_areset_conduit.export
+		.altpll_0_c2_clk                             (<connected-to-altpll_0_c2_clk>),                             //                     altpll_0_c2.clk
+		.altpll_0_locked_conduit_export              (<connected-to-altpll_0_locked_conduit_export>),              //         altpll_0_locked_conduit.export
+		.clk_clk                                     (<connected-to-clk_clk>),                                     //                             clk.clk
+		.eth_tse_0_mac_misc_connection_ff_tx_crc_fwd (<connected-to-eth_tse_0_mac_misc_connection_ff_tx_crc_fwd>), //   eth_tse_0_mac_misc_connection.ff_tx_crc_fwd
+		.eth_tse_0_mac_misc_connection_ff_tx_septy   (<connected-to-eth_tse_0_mac_misc_connection_ff_tx_septy>),   //                                .ff_tx_septy
+		.eth_tse_0_mac_misc_connection_tx_ff_uflow   (<connected-to-eth_tse_0_mac_misc_connection_tx_ff_uflow>),   //                                .tx_ff_uflow
+		.eth_tse_0_mac_misc_connection_ff_tx_a_full  (<connected-to-eth_tse_0_mac_misc_connection_ff_tx_a_full>),  //                                .ff_tx_a_full
+		.eth_tse_0_mac_misc_connection_ff_tx_a_empty (<connected-to-eth_tse_0_mac_misc_connection_ff_tx_a_empty>), //                                .ff_tx_a_empty
+		.eth_tse_0_mac_misc_connection_rx_err_stat   (<connected-to-eth_tse_0_mac_misc_connection_rx_err_stat>),   //                                .rx_err_stat
+		.eth_tse_0_mac_misc_connection_rx_frm_type   (<connected-to-eth_tse_0_mac_misc_connection_rx_frm_type>),   //                                .rx_frm_type
+		.eth_tse_0_mac_misc_connection_ff_rx_dsav    (<connected-to-eth_tse_0_mac_misc_connection_ff_rx_dsav>),    //                                .ff_rx_dsav
+		.eth_tse_0_mac_misc_connection_ff_rx_a_full  (<connected-to-eth_tse_0_mac_misc_connection_ff_rx_a_full>),  //                                .ff_rx_a_full
+		.eth_tse_0_mac_misc_connection_ff_rx_a_empty (<connected-to-eth_tse_0_mac_misc_connection_ff_rx_a_empty>), //                                .ff_rx_a_empty
+		.eth_tse_0_mac_rgmii_connection_rgmii_in     (<connected-to-eth_tse_0_mac_rgmii_connection_rgmii_in>),     //  eth_tse_0_mac_rgmii_connection.rgmii_in
+		.eth_tse_0_mac_rgmii_connection_rgmii_out    (<connected-to-eth_tse_0_mac_rgmii_connection_rgmii_out>),    //                                .rgmii_out
+		.eth_tse_0_mac_rgmii_connection_rx_control   (<connected-to-eth_tse_0_mac_rgmii_connection_rx_control>),   //                                .rx_control
+		.eth_tse_0_mac_rgmii_connection_tx_control   (<connected-to-eth_tse_0_mac_rgmii_connection_tx_control>),   //                                .tx_control
+		.eth_tse_0_mac_status_connection_set_10      (<connected-to-eth_tse_0_mac_status_connection_set_10>),      // eth_tse_0_mac_status_connection.set_10
+		.eth_tse_0_mac_status_connection_set_1000    (<connected-to-eth_tse_0_mac_status_connection_set_1000>),    //                                .set_1000
+		.eth_tse_0_mac_status_connection_eth_mode    (<connected-to-eth_tse_0_mac_status_connection_eth_mode>),    //                                .eth_mode
+		.eth_tse_0_mac_status_connection_ena_10      (<connected-to-eth_tse_0_mac_status_connection_ena_10>),      //                                .ena_10
+		.eth_tse_0_receive_data                      (<connected-to-eth_tse_0_receive_data>),                      //               eth_tse_0_receive.data
+		.eth_tse_0_receive_endofpacket               (<connected-to-eth_tse_0_receive_endofpacket>),               //                                .endofpacket
+		.eth_tse_0_receive_error                     (<connected-to-eth_tse_0_receive_error>),                     //                                .error
+		.eth_tse_0_receive_empty                     (<connected-to-eth_tse_0_receive_empty>),                     //                                .empty
+		.eth_tse_0_receive_ready                     (<connected-to-eth_tse_0_receive_ready>),                     //                                .ready
+		.eth_tse_0_receive_startofpacket             (<connected-to-eth_tse_0_receive_startofpacket>),             //                                .startofpacket
+		.eth_tse_0_receive_valid                     (<connected-to-eth_tse_0_receive_valid>),                     //                                .valid
+		.eth_tse_0_transmit_data                     (<connected-to-eth_tse_0_transmit_data>),                     //              eth_tse_0_transmit.data
+		.eth_tse_0_transmit_endofpacket              (<connected-to-eth_tse_0_transmit_endofpacket>),              //                                .endofpacket
+		.eth_tse_0_transmit_error                    (<connected-to-eth_tse_0_transmit_error>),                    //                                .error
+		.eth_tse_0_transmit_empty                    (<connected-to-eth_tse_0_transmit_empty>),                    //                                .empty
+		.eth_tse_0_transmit_ready                    (<connected-to-eth_tse_0_transmit_ready>),                    //                                .ready
+		.eth_tse_0_transmit_startofpacket            (<connected-to-eth_tse_0_transmit_startofpacket>),            //                                .startofpacket
+		.eth_tse_0_transmit_valid                    (<connected-to-eth_tse_0_transmit_valid>),                    //                                .valid
+		.reset_reset_n                               (<connected-to-reset_reset_n>)                                //                           reset.reset_n
+	);
+
