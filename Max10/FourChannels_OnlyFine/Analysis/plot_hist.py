@@ -1,17 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from scipy.optimize import curve_fit
 
 
 # Skiprows needed since the data is read in chunks of 1000 for live histogram
 skiprows_next : int = 0
 
-# Folrder to read data from
+# Folder to read data from
 timestamp = 'coarse_2025-02-20_13:34:46'
 
 # Channels to plot
-channels = ['fine']
+channels = ['00', '01', '10', '11']
 full_data = {channel: [] for channel in channels}
 
 # Read the data from the file in chunks of 1000
@@ -42,6 +41,7 @@ def update_hist(frame):
         ax.set_xlabel('bins')
         ax.set_ylabel('frequency')
         ax.hist(full_data[channel], bins=300, range=(0, 300), width=1, edgecolor = 'black', linewidth = .1)
+        ax.set_title(f'Channel {int(channel, 2)}')
         ax.set_xlim(-2, 300)
     skiprows_next += 1000
     

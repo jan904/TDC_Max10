@@ -85,8 +85,16 @@ BEGIN
                 next_state <= WRITE_FIFO;
 
             WHEN WRITE_FIFO =>
-                -- Wait for three cycle for timing reasons
-                IF count < 3 THEN
+                -- Wait for three cycle for timing reasons. For some reason, using 3 separate IFs is much more stable than using "count < 3" statement
+                IF count = 0 THEN
+                    count_next <= count + 1;
+                    next_state <= WRITE_FIFO;
+
+                ELSIF count = 1 THEN
+                    count_next <= count + 1;
+                    next_state <= WRITE_FIFO;
+
+                ELSIF count = 2 THEN
                     count_next <= count + 1;
                     next_state <= WRITE_FIFO;
 
