@@ -1,5 +1,6 @@
 # Overview 
 This Repo collects the code for several Variations of a TDC implemented on both a small Max10 and a Max10 Development Kit.
+Details on the general idea and implementation can be found in my Bachelor thesis (Jan Höfer, Heidelberg University, Group mu3e)
 
 ## Max10
 
@@ -24,8 +25,7 @@ and writes the fine and coarse timestamps in seperate .txt files. The name of th
 
 __Important__: First start running the script, then programm the FPGA and start the measurement. Otherwise the bits are mixed up in the readout.
 
-To analyze the fine bin distribution of the delay line, run one_channel_plot_fine. Provide it with the name of the folder you want to 
-analyze. It plots a live histogram during one measurement and also saves the full histogram once closed.
+To analyze the fine bin distribution of the delay line, run one_channel_plot_fine. Provide it with the name of the folder you want to analyze. It plots a live histogram during one measurement and also saves the full histogram once closed.
 
 
 ### Four channels, Only Fine
@@ -36,3 +36,7 @@ In this current version, one input is fed to all delay lines, but this can be ch
 The script read_serial reads to output of the FPGA via UART. At the moment, each input signal generates a 16 Bit output for each channel. The necessary 9 bit fine timestamp is concatenated with a 2 bit ID ('00', '01', '10', '11') and the remaining 5 bits are wasted. This of course can be improved by using a header or a predefined order for the output order of the channels. Also coarse timing information could be added. 
 
 For some reason, it can happen that the order of the output is shifted. Then the bits read by the script do not make sense as the channel ID is taken as timing information in this case. It only happens rarely and could be detected within the script to automatically correct.
+
+Quickly plot the bin histograms with plot_hist.py. In the current configuration, the first two lines are longer and thus better than lines 3 & 4. This can be optimized by altering the position of the lines on the FPGA using the loc_assign script. The entries at the maximum bin 4 * 72 = 288 are a result of overflow. This happens when a signal arrives during the reset stage leading to the maximum value being recorded.
+
+
