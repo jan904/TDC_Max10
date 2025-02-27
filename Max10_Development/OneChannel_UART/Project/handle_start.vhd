@@ -12,6 +12,7 @@ USE ieee.std_logic_1164.ALL;
 ENTITY handle_start IS
     PORT (
         clk : IN STD_LOGIC;             -- Clock signal
+        locked : IN STD_LOGIC;          -- PLL locked
         starting : OUT STD_LOGIC        -- Reset signal for other modules
     );
 END ENTITY handle_start;
@@ -38,7 +39,7 @@ BEGIN
     END PROCESS;
 
     -- fsm logic
-    PROCESS (next_state, starting_reg, current_state)
+    PROCESS (next_state, starting_reg, current_state, locked)
     BEGIN
         -- Go to reset_state after starting. Stay in reset_state for one cycle
         -- and send starting signal. Then go to running_state and stay there sending no signal.

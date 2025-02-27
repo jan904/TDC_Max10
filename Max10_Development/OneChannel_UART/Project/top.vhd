@@ -20,6 +20,9 @@ END ENTITY top;
 
 ARCHITECTURE rtl of top IS
 
+    SIGNAL clk_12 : STD_LOGIC;
+    SIGNAL pll_locked : STD_LOGIC;
+
     SIGNAL reset_after_start : STD_LOGIC;
 
     SIGNAL coarse_count : STD_LOGIC_VECTOR(coarse_bits - 1 DOWNTO 0);
@@ -37,6 +40,15 @@ ARCHITECTURE rtl of top IS
 
     SIGNAL uart_data_valid : STD_LOGIC;
     SIGNAL data_to_uart : STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+    COMPONENT pll IS
+        PORT (
+            areset : IN STD_LOGIC;
+            inclk0 : IN STD_LOGIC;
+            c0 : OUT STD_LOGIC;
+            locked : OUT STD_LOGIC
+        );
+    END COMPONENT pll;
 
     COMPONENT channel IS
         GENERIC (
@@ -56,6 +68,7 @@ ARCHITECTURE rtl of top IS
     COMPONENT handle_start IS
         PORT (
             clk : IN STD_LOGIC;
+            locked : IN STD_LOGIC;
             starting : OUT STD_LOGIC
         );
     END COMPONENT handle_start;
@@ -125,10 +138,20 @@ ARCHITECTURE rtl of top IS
 
 BEGIN
 
+    -- PLL for 12 MHz clock
+    pll_inst : pll
+    PORT MAP (
+        areset => '0',
+        inclk0 => clk,
+        c0 => clk_12,
+        locked => pll_locked
+    );
+
     -- Reset every entity after start
     handle_start_inst : handle_start
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
+        locked => pll_locked,
         starting => reset_after_start
     );
 
@@ -138,7 +161,7 @@ BEGIN
         coarse_bits => coarse_bits
     )
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         reset => reset_after_start,
         count => coarse_count
     );
@@ -150,7 +173,7 @@ BEGIN
         n_output_bits => n_output_bits
     )
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         signal_in => signal_in,
         start_reset => reset_after_start,
         channel_written => channels_written,
@@ -161,7 +184,7 @@ BEGIN
     -- Write data from channel to buffer FIFO
     fifo_writer_inst : fifo_writer
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         reset => reset_after_start,
         ch_valid => channels_wr_en,
         ch_data => coarse_count & signal_out_1,
@@ -178,7 +201,7 @@ BEGIN
         dbits => 8
     )
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         rst => reset_after_start,
         rd => fifo_rd,
         wr => fifo_wr,
@@ -191,7 +214,7 @@ BEGIN
     -- Read data from buffer FIFO
     fifo_reader_inst : fifo_reader
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         reset => reset_after_start,
         fifo_empty => fifo_empty,
         fifo_data => r_fifo_data,
@@ -203,7 +226,7 @@ BEGIN
     -- UART for serial output
     uart_inst : uart
     PORT MAP (
-        clk => clk,
+        clk => clk_12,
         rst => reset_after_start,
         we => uart_data_valid,
         din => data_to_uart,
