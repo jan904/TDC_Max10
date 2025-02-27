@@ -56,7 +56,9 @@ The system is programmed via UART. To allow access to the port, a rule file has 
 
 
 ### One Channel, UART
-This is exactly the same design as for the Max1000, only adapted to the Development Kit. Now runs on a 25MHz clock. Other than that, there are no changes.
+This is exactly the same design as for the Max1000, only adapted to the Development Kit. Also runs on a 12 MHz clock. Other than that, there are no changes.
+
+Might happen that the reading script mixes up the bits leading to nonsense. In this case restart until the results look correct (coarse outputs are sequential).
 
 
 ### One Channel, Ethernet
