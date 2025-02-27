@@ -50,9 +50,9 @@ To plot the actual bin widths of the bins in ns, use the scripts calibration.py.
 The Max10 Development Kit offers much more functionality than the small Max1000. It provides more and faster clocks, a larger logic matrix and several connections like Ethernet. 
 The overall design was not changed so the performance is similar to the small Max1000. 
 
-Again, a waveform generator was used to feed signals in the FPGA. A HSMC breakout boards is used to use simple pins as inputs. Connect the ground to GND and the input to PIN_C9 (see pin plan of breakout board in the Documentation folder). Input are rectangular signals with 2.5V.
+Again, a waveform generator was used to feed signals in the FPGA. A HSMC breakout boards is used to use simple pins as inputs. Connect the ground to GND and the input to PIN_Y8 (see pin plan of breakout board in the Documentation folder). This is Pin No.4 on the breakout board. Input are rectangular signals with 2.5V.
 
-The system is programmed via UART. To allow access to the port, a rule file has to be inserted to "/etc/udev/rules.d". Copy the rule file in Documentation into this directory and reload rules. 
+The system is programmed via UART. To allow access to the port, a rule file has to be inserted to "/etc/udev/rules.d". Copy the rule file in Documentation into this directory and reload rules. The running quartus installation is in folder ./intelFPGA.
 
 
 ### One Channel, UART
